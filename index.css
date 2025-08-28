@@ -625,13 +625,23 @@ body {
         padding-top: 20px;
     }
 
+    .en {
+        position: relative;
+    }
+
+    .language {
+        position: absolute;
+        left: -130px;
+    }
+
     .hello {
         position: relative;
     }
 
     .to-do {
+        width: 300px;
         position: absolute;
-        left: -200px;
+        left: -100px;
     }
 
     .accounts {
@@ -642,7 +652,7 @@ body {
         width: 300px;
         height: 400px;
         position: absolute;
-        left: -200px;
+        left: -100px;
     }
 
     #big-img {
