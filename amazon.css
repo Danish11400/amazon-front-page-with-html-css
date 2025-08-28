@@ -16,6 +16,9 @@ body {
     box-sizing: border-box;
     font-size: 14px;
     height: 64px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
 }
 
 .en {
@@ -176,6 +179,7 @@ body {
     height: 60px;
     align-items: center;
     font-size: 14px;
+    margin-top: 64px;
 }
 
 .navbar a {
@@ -587,5 +591,62 @@ body {
 
     .footer-column {
         margin-bottom: 24px;
+    }
+}
+
+
+@media only screen and (max-width:600px) {
+
+    .container .ama,
+    .cart,
+    .returns {
+        display: none;
+    }
+
+
+}
+
+@media only screen and (max-width:480px) {
+    .navbar .hide {
+        display: none;
+    }
+
+    .hello {
+        position: relative;
+    }
+
+    .to-do {
+        position: absolute;
+        left: -200px;
+    }
+
+    .accounts {
+        position: relative;
+    }
+
+    .sign-up {
+        width: 300px;
+        height: 400px;
+        position: absolute;
+        left: -200px;
+    }
+
+    #big-img {
+        position: relative;
+    }
+
+    .grid-main {
+        position: absolute;
+        top: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .grid-main2 {
+        margin-top: 1150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
     }
 }
