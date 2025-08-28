@@ -595,7 +595,7 @@ body {
 }
 
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:480px) {
 
     .container .ama,
     .cart,
@@ -603,12 +603,26 @@ body {
         display: none;
     }
 
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        height: 80px;
+        margin-bottom: 100px;
+    }
+
 
 }
 
 @media only screen and (max-width:480px) {
+
     .navbar .hide {
         display: none;
+    }
+
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 20px;
     }
 
     .hello {
